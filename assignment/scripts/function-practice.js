@@ -112,3 +112,12 @@ console.log('Test - should return "4, 5, 5"', betterArray( array ));
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
+// The code problem I found on edabit was converting age to days. The programmer is supposed to
+// create a funtion that converts age to days. To do this I create a funtion called ageToDays and it takes an argument as a value.
+// this funtion will return the number passed into the function multiplied by 365. Resulting in how many days old. 
+
+function ageToDays ( value ) {
+  return value * 365;
+}
+
+console.log('I guess I am this many days old', ageToDays(25));
